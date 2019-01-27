@@ -11,3 +11,11 @@ License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  disuse
 Domain Path:  /languages
 */
+
+add_action( 'init', 'initialize_plugin', 10, 1 );
+
+function initialize_plugin(){
+
+  echo "PLugin Initialize";
+
+}
